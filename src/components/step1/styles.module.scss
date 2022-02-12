@@ -1,3 +1,56 @@
 .step1 {
-  background-image: url("/images/bg.jpeg");
+  background-image: linear-gradient(#14141433 30%, #141414 80%), url(/images/bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+  .logo{
+    max-width: 500px;
+    width: 100%;
+    margin-top: 150px;
+  }
+
+  .title{
+    font-size: 32px;
+    margin: 32px 0 20px;
+    span{
+      color: #D0DF00;
+    }
+  }
+
+  .subtitle{
+    font-size: 22px;
+    margin: 35px 0 10px;
+  }
+
+  .txt {
+    color: #DCDCDC;
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .boxes{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    .box{
+      background-color: #3F3F3F;
+      align-items: center;
+      display: flex;
+      width: 250px;
+      height: 250px;
+      span{
+        color: #D0DF00;
+      }
+      .big{
+        font-size: 62px;
+      }
+      p{
+        width: 100%;
+        font-size: 32px;
+        font-weight: bold;
+      }
+    }
+  }
+
 }
