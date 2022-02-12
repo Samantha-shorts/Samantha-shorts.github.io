@@ -32,12 +32,12 @@ const Step1: NextPage = () => {
       </div>
 
       <div className={styles.btns}>
-        <a href={process.env.REACT_APP_SAMANSA_URL}>
+        <a href="https://samansa.com">
           <button className={styles.containedBtn}>
             今すぐ無料登録
           </button>
         </a>
-        <a href={process.env.REACT_APP_SAMANSA_URL}>
+        <a href="https://samansa.com">
           <button className={styles.outlinedBtn}>
             ログイン
           </button>
