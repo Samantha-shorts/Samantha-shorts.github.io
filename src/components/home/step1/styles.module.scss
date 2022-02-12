@@ -37,8 +37,8 @@
       background-color: #3F3F3F;
       align-items: center;
       display: flex;
-      width: 250px;
-      height: 250px;
+      width: 220px;
+      height: 234px;
       span{
         color: #D0DF00;
       }
@@ -51,6 +51,25 @@
         font-weight: bold;
       }
     }
+  }
+  
+  .btns{
+    display: flex; 
+    gap: 10px;
+    justify-content: center;
+    margin-top: 40px;
+    .containedBtn{
+      color: black;
+      background-color: #D0DF00;
+      border: 1px solid #D0DF00;
+      width: 220px;
+    }
+    .outlinedBtn{
+      color: #D0DF00;
+      border: 1px solid #D0DF00;
+      width: 220px;
+    }
+
   }
 
 }

@@ -1,6 +1,5 @@
 import { NextPage } from "next"
 import styles from "./styles.module.scss"
-
 const Step1: NextPage = () => {
   return (
     <div className={styles.step1}>
@@ -24,13 +23,25 @@ const Step1: NextPage = () => {
             <span className={styles.big}>250</span>円
           </p>
         </div>
-
         <div className={styles.box}>
           <p>
             14日間<br/>
             <span>無料</span>体験
           </p>
         </div>
+      </div>
+
+      <div className={styles.btns}>
+        <a href={process.env.REACT_APP_SAMANSA_URL}>
+          <button className={styles.containedBtn}>
+            今すぐ無料登録
+          </button>
+        </a>
+        <a href={process.env.REACT_APP_SAMANSA_URL}>
+          <button className={styles.outlinedBtn}>
+            ログイン
+          </button>
+        </a>
       </div>
     </div>
   )
