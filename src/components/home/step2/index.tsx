@@ -1,8 +1,11 @@
 import { NextPage } from 'next'
+import styles from "./styles.module.scss"
 
 const Step2:NextPage = () => {
   return (
-    <div>Step2</div>
+    <div className={styles.step2}>
+      hello
+    </div>
   )
 }
 
