@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   exportPathMap: async function (defaultPathMap) {
     return {
-      ...defaultPathMap
+      '/': { page: '/' },
     }
   }
 }

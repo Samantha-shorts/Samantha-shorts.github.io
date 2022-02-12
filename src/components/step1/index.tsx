@@ -1,11 +1,10 @@
 import { NextPage } from "next"
-import Image from "next/image"
 import styles from "./styles.module.scss"
 
 const Step1: NextPage = () => {
   return (
     <div className={styles.step1}>
-      <Image width={72} height={16} src="/images/logo.png" />
+      <img src="/images/logo.png" />
       <h1>世界のショート映画をSAMANSAで</h1>
       <p>
         SAMANSAは世界中の良質で面白いショート映画・ドラマ・ドキュメンタリーを発掘し、<br/>
