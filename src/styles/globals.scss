@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "@variable";
 
 html,
 body {
@@ -30,4 +28,11 @@ button {
 * {
   box-sizing: border-box;
   letter-spacing: 0.04em;
+}
+
+.pcNo{
+  display: none;
+  @include mq(){
+    display: block;
+  }
 }

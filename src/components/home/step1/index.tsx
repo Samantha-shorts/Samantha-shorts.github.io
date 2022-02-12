@@ -15,10 +15,10 @@ const Step1:NextPage = () => {
         ref={ref}
       >
         <img className={styles.logo} src="/images/logo.png" />
-        <h1 className={styles.title}>世界のショート映画を<span>SAMANSA</span>で</h1>
+        <h1 className={styles.title}>世界のショート映画を<br className="pcNo"/><span>SAMANSA</span>で</h1>
         <p className={styles.txt}>
-          SAMANSAは世界中の良質で面白いショート映画・ドラマ・ドキュメンタリーを発掘し、<br/>
-          クリエイターと直接契約を交わして配信しているプラットフォームです。<br/>
+          SAMANSAは世界中の良質で面白い<br className="pcNo"/>ショート映画・ドラマ・ドキュメンタリーを発掘し、<br/>
+          クリエイターと直接契約を交わして<br className="pcNo"/>配信しているプラットフォームです。<br/>
         </p>
         <h2 className={styles.subtitle}>料金プラン</h2>
         <p className={styles.txt}>

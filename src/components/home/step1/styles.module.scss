@@ -1,19 +1,31 @@
+@import "@variable";
+
 .step1 {
-  background-image: linear-gradient(#14141433 30%, #141414 80%), url(/images/bg.jpeg);
+  background-image: linear-gradient(#14141433 30%, #141414 70%), url(/images/bg.jpeg);
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding-top: 150px;
+  padding: 150px 0 50px;
+  
+  @include mq(){
+    padding: 80px 0 50px;
+  }
 
   .logo{
     max-width: 500px;
     width: 100%;
     margin: auto;
+    padding: 0 20px;
   }
 
   .title{
     font-size: 32px;
     margin: 32px 0 20px;
+    font-weight: bold;
+    @include mq(){
+      font-size: 26px;
+      line-height: 33px;
+    }
     span{
       color: #D0DF00;
     }
@@ -22,12 +34,16 @@
   .subtitle{
     font-size: 22px;
     margin: 35px 0 10px;
+    font-weight: bold;
   }
 
   .txt {
     color: #DCDCDC;
     font-size: 14px;
     line-height: 23px;
+    @include mq(){
+      font-size: 13px;
+    }
   }
 
   .boxes{
@@ -35,22 +51,34 @@
     justify-content: center;
     gap: 22px;
     margin-top: 20px;
+    padding: 0 20px;
     .box{
       background-color: #3F3F3F;
       align-items: center;
       display: flex;
       width: 220px;
       height: 234px;
+      @include mq{
+        width: 100%;
+        height: 170px;
+      }
       span{
         color: #D0DF00;
       }
       .big{
         font-size: 62px;
+        @include mq{
+          font-size: 50px;
+          line-height: 40px;
+        }
       }
       p{
         width: 100%;
         font-size: 32px;
         font-weight: bold;
+        @include mq{
+          font-size: 26px;
+        }
       }
     }
   }
@@ -60,16 +88,26 @@
     gap: 10px;
     justify-content: center;
     margin-top: 40px;
+    padding: 0 12px;
+    a{
+      width: 220px;
+    }
     .containedBtn{
       color: black;
       background-color: #D0DF00;
       border: 1px solid #D0DF00;
-      width: 220px;
+      width: 100%;
+      @include mq{
+        font-size: 13px;
+      }
     }
     .outlinedBtn{
       color: #D0DF00;
       border: 1px solid #D0DF00;
-      width: 220px;
+      width: 100%;
+      @include mq{
+        font-size: 13px;
+      }
     }
 
   }
