@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Step3 from 'src/components/home/step3'
 import Step1 from '../components/home/step1'
 import Step2 from '../components/home/step2'
 import styles from '../styles/Home.module.scss'
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
       </Head>
       <Step1 />
       <Step2 />
+      <Step3 />
     </div>
   )
 }

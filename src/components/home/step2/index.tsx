@@ -1,21 +1,52 @@
 import { NextPage } from 'next'
-import { useInView } from 'react-intersection-observer';
 import styles from "./styles.module.scss"
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper";
+
 
 const Step2:NextPage = () => {
-
-  const { ref, inView } = useInView({
-    rootMargin: '-1000px',
-    triggerOnce: true,
-  });
-
   return (
     <div className={styles.step2}>
-      <div
-        className={`${inView ? "opacity-100" : "opacity-0 translate-y-[5%]"} duration-[1s]`}
-        ref={ref}
-      >
-        
+      <div>
+        <h2 className={styles.subtitle}>おすすめの作品が期間限定で<br className="pcNo"/><span>無料</span>公開中！</h2>
+        <div className={styles.slide}>
+          <Swiper
+            slidesPerView="auto"
+            centeredSlides={true}
+            loop={true}
+            autoplay={{
+              delay: 5000,
+              disableOnInteraction: false,
+            }}
+            className="videoSwiper"
+            modules={[Autoplay]}
+          >
+            <SwiperSlide>
+              <p>＼グッとくるならこれ／</p>
+              <img src="/images/video3.jpeg" alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <p>＼本物の愛を💖／</p>
+              <img src="/images/video2.jpeg" alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <p>＼スカッとできる✨／</p>
+              <img src="/images/video1.jpeg" alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <p>＼グッとくるならこれ／</p>
+              <img src="/images/video3.jpeg" alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <p>＼本物の愛を💖／</p>
+              <img src="/images/video2.jpeg" alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <p>＼スカッとできる✨／</p>
+              <img src="/images/video1.jpeg" alt="" />
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </div>
     </div>
   )
