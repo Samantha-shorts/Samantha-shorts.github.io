@@ -6,11 +6,12 @@
     text-align: center;
     margin: 100px 0 30px;
     font-weight: bold;
+    @include mq{
+      margin: 50px 0 30px;
+      font-size: 18px;
+    }
     span{
       color: #D0DF00;
-    }
-    @include mq() {
-      font-size: 18px;
     }
   }
 }

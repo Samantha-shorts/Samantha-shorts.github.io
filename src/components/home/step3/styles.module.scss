@@ -7,6 +7,9 @@
     font-size: 22px;
     text-align: center;
     margin: 100px 0 30px;
+    @include mq{
+      margin: 50px 0 30px;
+    }
     font-weight: bold;
     span{
       color: #D0DF00;
