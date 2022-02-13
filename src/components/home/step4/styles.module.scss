@@ -1,0 +1,16 @@
+@import "@variable";
+
+.step4 {
+  .subtitle{
+    font-size: 22px;
+    text-align: center;
+    margin: 100px 0 30px;
+    font-weight: bold;
+    span{
+      color: #D0DF00;
+    }
+    @include mq() {
+      font-size: 18px;
+    }
+  }
+}
