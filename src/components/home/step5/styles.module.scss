@@ -1,0 +1,43 @@
+@import "@variable";
+
+.step5 {
+  height: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: 100px;
+
+  img.bg{
+    position: absolute;
+    z-index: 0;
+    transform: rotate(348deg);
+    width: 110%;
+    min-width: 1200px;
+    max-width: initial;
+  }
+
+  .box{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    h2{
+      font-size: 32px;
+      font-weight: bold;
+      @include mq{
+        font-size: 26px;
+      }
+      span{
+        color: #D0DF00;
+      }
+    }
+
+    button{
+      background-color: #D0DF00;
+      color: #171717;
+      padding: 14px 60px;
+      margin-top: 30px;
+    }
+  }
+}
