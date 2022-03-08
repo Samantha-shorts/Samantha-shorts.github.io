@@ -16,5 +16,14 @@
       font-size: 18px;
     }
   }
+  .slide {
+    p {
+      font-size: 14px;
+      @include mq() {
+        font-size: 10px;
+        word-break: keep-all;
+      }
+    }
+  }
 
 }

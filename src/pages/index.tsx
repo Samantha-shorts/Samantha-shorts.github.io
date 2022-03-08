@@ -3,9 +3,10 @@ import Head from 'next/head'
 import Step3 from 'src/components/home/step3'
 import Step4 from 'src/components/home/step4'
 import Step5 from 'src/components/home/step5'
-import Step1 from '../components/home/step1'
-import Step2 from '../components/home/step2'
-import styles from '../styles/Home.module.scss'
+import Step1 from 'src/components/home/step1'
+import Step2 from 'src/components/home/step2'
+import Footer from 'src/components/home/footer'
+import styles from 'src/styles/Home.module.scss'
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
       <Step3 />
       <Step4 />
       <Step5 />
+      <Footer />
     </div>
   )
 }
