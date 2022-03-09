@@ -19,19 +19,31 @@
     }
   }
 
-  .question{
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 14px;
-    background-color: #272622;
-    border-radius: 3px;
-    margin: 0 auto 10px;
+  .accordion {
     max-width: 700px;
-    img{
-      width: 16px;
-      margin-left: 10px;
+    padding: 7px 0;
+    margin: 0 auto 10px;
+    border-radius: 3px;
+    color: #FFFFFF;
+    background-color: #272622;
+    .accordionSummary {
+      padding: 0px 12px 0px 20px;
+      p {
+        font-size: 14px;
+      }
+    }
+    .accordionDetails {
+      background: #31312A;
+      padding: 16px;
+      margin: 0px 16px 8px 16px;
+      p {
+        font-size: 14px;
+      }
+    }
+    .expandMoreIcon {
+      fill: #FFFFFF;
+      width: 32px;
+      height: 32px;
     }
   }
 }

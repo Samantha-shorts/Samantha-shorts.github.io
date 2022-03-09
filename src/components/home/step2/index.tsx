@@ -22,34 +22,39 @@ const Step2:NextPage = () => {
             modules={[Autoplay]}
           >
             <SwiperSlide>
-              <p>＼グッとくるならこれ／</p>
-              <img className="pc" src="/images/video3.jpeg" alt="" />
-              <img className="sp" src="/images/video4.jpeg" alt="" />
+              <p>ゾクゾク恐怖ホラー</p>
+              <img className="pc" src="/images/videos/video1-pc.jpg" alt="" />
+              <img className="sp" src="/images/videos/video1-sp.jpg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <p>＼本物の愛を💖／</p>
-              <img className="pc" src="/images/video2.jpeg" alt="" />
-              <img className="sp" src="/images/video5.jpeg" alt="" />
+              <p>ほっこり笑みが溢れる</p>
+              <img className="pc" src="/images/videos/video2-pc.jpg" alt="" />
+              <img className="sp" src="/images/videos/video2-sp.jpg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <p>＼スカッとできる✨／</p>
-              <img className="pc" src="/images/video1.jpeg" alt="" />
-              <img className="sp" src="/images/video6.jpeg" alt="" />
+              <p>まさかの展開！</p>
+              <img className="pc" src="/images/videos/video3-pc.jpg" alt="" />
+              <img className="sp" src="/images/videos/video3-sp.jpg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <p>＼グッとくるならこれ／</p>
-              <img className="pc" src="/images/video3.jpeg" alt="" />
-              <img className="sp" src="/images/video4.jpeg" alt="" />
+              <p>考えさせられる</p>
+              <img className="pc" src="/images/videos/video4-pc.jpg" alt="" />
+              <img className="sp" src="/images/videos/video4-sp.jpg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <p>＼本物の愛を💖／</p>
-              <img className="pc" src="/images/video2.jpeg" alt="" />
-              <img className="sp" src="/images/video5.jpeg" alt="" />
+              <p>心にグッとくる</p>
+              <img className="pc" src="/images/videos/video5-pc.jpg" alt="" />
+              <img className="sp" src="/images/videos/video5-sp.jpg" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <p>＼スカッとできる✨／</p>
-              <img className="pc" src="/images/video1.jpeg" alt="" />
-              <img className="sp" src="/images/video6.jpeg" alt="" />
+              <p>世界を知るドキュメンタリー</p>
+              <img className="pc" src="/images/videos/video6-pc.jpg" alt="" />
+              <img className="sp" src="/images/videos/video6-sp.jpg" alt="" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <p>大切なあの人と</p>
+              <img className="pc" src="/images/videos/video7-pc.jpg" alt="" />
+              <img className="sp" src="/images/videos/video7-sp.jpg" alt="" />
             </SwiperSlide>
           </Swiper>
         </div>

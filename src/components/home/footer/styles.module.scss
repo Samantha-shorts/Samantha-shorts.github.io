@@ -1,0 +1,68 @@
+@import "@variable";
+
+.footer {
+    padding: 48px;
+    @include mq(){
+        padding: 36px 48px;
+    }
+    .footerHead {
+        display: flex;
+        margin-bottom: 48px;
+        @include mq(){
+            display: block;
+        }
+        .snsList {
+            display: flex;
+            justify-content: center;
+            flex: 1;
+            @include mq(){
+                padding-bottom: 32px;
+            }
+            a {
+                cursor: pointer;
+                margin: 0px 6px;
+                img {
+                    width: 40px;
+                }
+            }
+        }
+        .linkList {
+            width: 64%;
+            padding: 0px 32px;
+            @include mq(){
+                width: 100%;
+                padding: 0px;
+            }
+            a {
+                float: left;
+                width: 25%;
+                min-width: 160px;
+                font-size: 14px;
+                margin-bottom: 16px;
+                color: #E9FF66;
+                @include mq(){
+                    font-size: 13px;
+                    min-width: unset;
+                    width: 50%;
+                }
+            }
+        }
+    }
+    .footerLogo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 320px;
+        width: 100%;
+        margin: 0 auto;
+        @include mq(){
+            padding-top: 16px;
+        }
+        div {
+            font-size: 14px;
+            @include mq(){
+                font-size: 10px;
+            }
+        }
+    }
+}
