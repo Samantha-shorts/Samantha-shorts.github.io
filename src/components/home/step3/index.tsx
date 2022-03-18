@@ -8,7 +8,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const Step3: NextPage = () => {
   return (
-    <div className={styles.step3}>
+    <div className={styles.step3} id="qa">
       <h2 className={styles.subtitle}>よくある質問</h2>
       <Accordion className={styles.accordion}>
         <AccordionSummary
@@ -66,7 +66,7 @@ const Step3: NextPage = () => {
         </AccordionSummary>
         <AccordionDetails className={styles.accordionDetails}>
           <Typography>
-            A. 現時点ではクレジットカードまたはデビットカードのみのお支払いとなっております
+            A. 現時点ではクレジットカードまたはデビットカードのみのお支払いとなっております<br/>現在アプリ内課金導入に向けて開発を進めております
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -126,7 +126,7 @@ const Step3: NextPage = () => {
         </AccordionSummary>
         <AccordionDetails className={styles.accordionDetails}>
           <Typography>
-            A. アプリではなくウェブ版でカード登録が必要になります。アカウントにログインしていただき、右上のプロフィールボタンを押すと「支払い」ボタンが出てきます
+            A. アプリではなくウェブ版でカード登録が必要になります。アカウントにログインしていただき、右上のプロフィールボタンを押すと「支払い」ボタンが出てきます<br/>アプリ内でも課金ができるように開発を進めております
           </Typography>
         </AccordionDetails>
       </Accordion>
