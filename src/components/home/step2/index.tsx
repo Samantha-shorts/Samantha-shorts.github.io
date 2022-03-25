@@ -8,7 +8,7 @@ const Step2:NextPage = () => {
   return (
     <div className={styles.step2}>
       <div>
-        <h2 className={styles.subtitle}>おすすめの作品が期間限定で<br className="pcNo"/><span>無料</span>公開中！</h2>
+        <h2 className={styles.subtitle}>話題になった作品が勢揃い！</h2>
         <div className={styles.slide}>
           <Swiper
             slidesPerView="auto"
