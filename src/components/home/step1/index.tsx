@@ -22,8 +22,7 @@ const Step1:NextPage = () => {
         </p>
         <h2 className={styles.subtitle}>料金プラン</h2>
         <p className={styles.txt}>
-          クレジットカードの登録が不要でご利用いただけます。<br/>
-          2週間トライアル付き(以降月額250円)。<br/>
+        カード登録不要の2週間トライアル付き (以降月額250円)<br/>
           ※トライアル終了後は自動課金ではありません。
         </p>
 
