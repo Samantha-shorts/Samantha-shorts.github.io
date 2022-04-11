@@ -35,7 +35,7 @@ const Step1:NextPage = () => {
           </div>
           <div className={styles.box}>
             <p>
-              14日間<br/>
+              7日間<br/>
               <span>無料</span>体験
             </p>
           </div>
