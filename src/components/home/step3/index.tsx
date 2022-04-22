@@ -145,6 +145,21 @@ const Step3: NextPage = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
+      <Accordion className={styles.accordion}>
+        <AccordionSummary
+          className={styles.accordionSummary}
+          expandIcon={<ExpandMoreIcon className={styles.expandMoreIcon} />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography>Q. スマホでウェブ版SAMANSAを開くとクラッシュして前に進めません。どうすればいいですか？</Typography>
+        </AccordionSummary>
+        <AccordionDetails className={styles.accordionDetails}>
+          <Typography>
+            A. 現在ごく一部のデバイスで、同様の問題が発生しております。つきましてはPCで当サービスをお楽しみいただくか、会員登録後にiOSアプリをダウンロードすることを推奨しております。お手数おかけいたしまして大変申し訳ございません。
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
     </div>
   )
 }
